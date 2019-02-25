@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Callback">
+      <UniqueIdentifier>{67639e51-b7ac-477c-ad01-3ccce6137a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{c9218c06-16f2-4e13-bfd6-c6c6d2ca7881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Numeric">
+      <UniqueIdentifier>{7b4a5b5d-468f-498c-aa2c-3343a8a72079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{2f488c9c-6c63-4ff4-b43d-fec8d64df276}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Callback\CallbackT.h">
+      <Filter>Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Containers\CircularBuffer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Containers\FullBuffer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Numeric\BitsConversions.hpp">
+      <Filter>Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Numeric\NuLI.hpp">
+      <Filter>Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Numeric\NumericConvertions.hpp">
+      <Filter>Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Singleton\Singleton.hpp">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CheckSum.h" />
+    <ClInclude Include="..\Extensions.hpp" />
+    <ClInclude Include="..\TypeGenerator.h" />
+  </ItemGroup>
+</Project>
