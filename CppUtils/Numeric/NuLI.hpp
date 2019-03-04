@@ -1,11 +1,11 @@
-#pragma once
+п»ї#pragma once
 
 #include "NumericConvertions.hpp"
 
 using namespace NumericConvertions;
 
 /// <summary>
-/// Число в закольцованном интервале (аббревиатура от "number in the looped interval")
+/// Р§РёСЃР»Рѕ РІ Р·Р°РєРѕР»СЊС†РѕРІР°РЅРЅРѕРј РёРЅС‚РµСЂРІР°Р»Рµ (Р°Р±Р±СЂРµРІРёР°С‚СѓСЂР° РѕС‚ "number in the looped interval")
 /// </summary>
 template<typename T, int32_t min = 0, int32_t max = 0> class NuLI;
 

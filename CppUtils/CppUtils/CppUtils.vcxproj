@@ -27,6 +27,8 @@
     <ClInclude Include="..\Numeric\BitsConversions.hpp" />
     <ClInclude Include="..\Numeric\NuLI.hpp" />
     <ClInclude Include="..\Numeric\NumericConvertions.hpp" />
+    <ClInclude Include="..\Observer\DataStorage.h" />
+    <ClInclude Include="..\Observer\IObserver.h" />
     <ClInclude Include="..\Singleton\Singleton.hpp" />
     <ClInclude Include="..\TypeGenerator.h" />
   </ItemGroup>
@@ -84,6 +86,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\Observer;$(SolutionDir)\Singleton;$(SolutionDir)\Numeric;$(SolutionDir)\Containers;$(SolutionDir)\Callback;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

@@ -13,6 +13,9 @@
     <Filter Include="Singleton">
       <UniqueIdentifier>{2f488c9c-6c63-4ff4-b43d-fec8d64df276}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{ce8d60d6-5252-4093-9d2c-4533f66634fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Callback\CallbackT.h">
@@ -39,5 +42,11 @@
     <ClInclude Include="..\CheckSum.h" />
     <ClInclude Include="..\Extensions.hpp" />
     <ClInclude Include="..\TypeGenerator.h" />
+    <ClInclude Include="..\Observer\DataStorage.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Observer\IObserver.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
