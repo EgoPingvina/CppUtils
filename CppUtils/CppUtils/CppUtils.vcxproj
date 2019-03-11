@@ -89,7 +89,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)\Observer;$(SolutionDir)\Singleton;$(SolutionDir)\Numeric;$(SolutionDir)\Containers;$(SolutionDir)\Callback;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\Publish-Subscribe;$(SolutionDir)\Observer;$(SolutionDir)\Singleton;$(SolutionDir)\Numeric;$(SolutionDir)\Containers;$(SolutionDir)\Callback;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
