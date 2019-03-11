@@ -16,6 +16,9 @@
     <Filter Include="Observer">
       <UniqueIdentifier>{ce8d60d6-5252-4093-9d2c-4533f66634fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Publish-Subscribe">
+      <UniqueIdentifier>{091d875d-079c-464f-b4e7-3da0886a35df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Callback\CallbackT.h">
@@ -47,6 +50,15 @@
     </ClInclude>
     <ClInclude Include="..\Observer\IObserver.h">
       <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Publish-Subscribe\IPublisher.hpp">
+      <Filter>Publish-Subscribe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Publish-Subscribe\ISubscriber.hpp">
+      <Filter>Publish-Subscribe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Publish-Subscribe\PublisherDynamic.hpp">
+      <Filter>Publish-Subscribe</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

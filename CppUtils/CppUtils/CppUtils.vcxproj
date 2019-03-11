@@ -29,6 +29,9 @@
     <ClInclude Include="..\Numeric\NumericConvertions.hpp" />
     <ClInclude Include="..\Observer\DataStorage.h" />
     <ClInclude Include="..\Observer\IObserver.h" />
+    <ClInclude Include="..\Publish-Subscribe\IPublisher.hpp" />
+    <ClInclude Include="..\Publish-Subscribe\ISubscriber.hpp" />
+    <ClInclude Include="..\Publish-Subscribe\PublisherDynamic.hpp" />
     <ClInclude Include="..\Singleton\Singleton.hpp" />
     <ClInclude Include="..\TypeGenerator.h" />
   </ItemGroup>
